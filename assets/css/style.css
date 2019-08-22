@@ -44,7 +44,9 @@ a{
 }
 
 body{
-    background-color: #f0e8e8;
+    background-image: url("../images/light-grey-terrazzo.png");
+    background-repeat: repeat;
+    background-size: cover;
 }
 
 .container{
@@ -55,7 +57,6 @@ body{
     width: 960px;
     border: 1px solid #cccccc;
     color: #777777;
-    font-family:Arial, Helvetica, sans-serif;
 }
 
 .container h1{
@@ -102,21 +103,26 @@ hr{
     width: 93.2%;
 }
 
+/* THIS IS WHERE CONTACT FORM CSS STARTS */
+
 #contactform {
     margin-left:25px;
     line-height: 2;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #formname{
     width: 95%;
     height: 30px;
     padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #email{
     width: 95%;
     height:30px;
     padding-left: 10px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #tallmessage{
@@ -127,6 +133,7 @@ hr{
     margin: 1px;
     vertical-align: text-top; 
     border-color:lightgray;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 #inputbutton{
@@ -135,4 +142,46 @@ hr{
     width: 100px;
     height:30px;
     line-height:150%;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
+/* !--THIS IS WHERE PORTFOLIO CSS STARTS */
+
+.percy1{
+    background-image: url("../images/babypercy.jpg");
+    background-size:cover;
+    width:250px;
+    height: 350px;
+}
+
+.percy2{
+    background-image: url("../images/toddlerpercy.jpg");
+    background-size:cover;
+    width:250px;
+    height: 350px;
+    
+}
+.percy3{
+    background-image: url("../images/babyteenage.jpg");
+    background-size:cover;
+    width:250px;
+    height: 350px;
+}
+.percy4{
+    background-image: url("../images/hikepercy.jpg");
+    background-size:cover;
+    width:250px;
+    height: 350px;
+}
+
+ .percypics {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width:100%;
+    font-size: 24px;
+    color: white;
+    font-weight: 400;
+    background-color: #4aaaa5;
+    font-family: Arial, Helvetica, sans-serif;
+ }
