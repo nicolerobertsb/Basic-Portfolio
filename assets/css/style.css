@@ -147,41 +147,33 @@ hr{
 
 /* !--THIS IS WHERE PORTFOLIO CSS STARTS */
 
-.percy1{
-    background-image: url("../images/babypercy.jpg");
-    background-size:cover;
-    width:250px;
-    height: 350px;
+.percy{
+    position: relative;
 }
 
-.percy2{
-    background-image: url("../images/toddlerpercy.jpg");
-    background-size:cover;
-    width:250px;
-    height: 350px;
-    
-}
-.percy3{
-    background-image: url("../images/babyteenage.jpg");
-    background-size:cover;
-    width:250px;
-    height: 350px;
-}
-.percy4{
-    background-image: url("../images/hikepercy.jpg");
-    background-size:cover;
-    width:250px;
-    height: 350px;
-}
-
- .percypics {
+.percypics{
+    width:280px;
+    height: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     position: absolute;
-    bottom: 0;
-    left: 0;
-    width:100%;
+    bottom: 15px;
+    left:0;
     font-size: 24px;
     color: white;
     font-weight: 400;
     background-color: #4aaaa5;
-    font-family: Arial, Helvetica, sans-serif;
+ }
+
+#percy-container{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+ img{
+     margin: 4px 15px 0px 0px;
+     margin-right: 20px;
+     height: 300px;
+     width: 280px;
  }
